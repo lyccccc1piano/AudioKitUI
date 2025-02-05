@@ -167,7 +167,7 @@ public class MIDITrackViewModel: ObservableObject {
     var sampler: MIDISampler = MIDISampler()
     var trackTimer: Timer = Timer()
     public init() {
-        engine.output = Reverb(sampler, dryWetMix: 0.2)
+//        engine.output = Reverb(sampler, dryWetMix: 0.2)
     }
 
     public func startEngine() {
